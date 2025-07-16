@@ -21,7 +21,7 @@ print (introduction)
  */
 let name : String = " Varun Saini "
 let age = 19
-print("My name is \(name) and after my next birthday I will be \(age + 1) years old.")
+print("My name is \(name) and after my next birthday I will be \(age) years old.")
 
 /*:
 [Previous](@previous)  |  page 2 of 5  |  [Next: App Exercise - Notifications](@next)

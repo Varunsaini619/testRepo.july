@@ -17,7 +17,6 @@ var currentStepCount: Int = 8_452
 
 //:  When you declared a constant for goal number of steps and a variable for current step count, you likely assigned each a value in the thousands. This can be difficult to read. Redeclare this constant and variable and, when assigning each a value in the thousands, format the number so that it is more readable.
 hasMetStepGoal = currentStepCount >= goalNumberOfSteps
-
 print("Goal: \(goalNumberOfSteps), Current Steps: \(currentStepCount)")
 print("Has met step goal: \(hasMetStepGoal)")
 
