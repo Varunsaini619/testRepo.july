@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E30E72352E2A13E300E88A4A /* Lab-Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab-Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E354AC002E39DBAA00A80071 /* LoginPrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E30E72472E2A13E500E88A4A /* Exceptions for "Lab-Login" folder in "Lab-Login" target */ = {
+		E354AC122E39DBAB00A80071 /* Exceptions for "LoginPrac" folder in "LoginPrac" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = E30E72342E2A13E300E88A4A /* Lab-Login */;
+			target = E354ABFF2E39DBAA00A80071 /* LoginPrac */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E30E72372E2A13E300E88A4A /* Lab-Login */ = {
+		E354AC022E39DBAA00A80071 /* LoginPrac */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E30E72472E2A13E500E88A4A /* Exceptions for "Lab-Login" folder in "Lab-Login" target */,
+				E354AC122E39DBAB00A80071 /* Exceptions for "LoginPrac" folder in "LoginPrac" target */,
 			);
-			path = "Lab-Login";
+			path = LoginPrac;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E30E72322E2A13E300E88A4A /* Frameworks */ = {
+		E354ABFD2E39DBAA00A80071 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E30E722C2E2A13E300E88A4A = {
+		E354ABF72E39DBAA00A80071 = {
 			isa = PBXGroup;
 			children = (
-				E30E72372E2A13E300E88A4A /* Lab-Login */,
-				E30E72362E2A13E300E88A4A /* Products */,
+				E354AC022E39DBAA00A80071 /* LoginPrac */,
+				E354AC012E39DBAA00A80071 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E30E72362E2A13E300E88A4A /* Products */ = {
+		E354AC012E39DBAA00A80071 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E30E72352E2A13E300E88A4A /* Lab-Login.app */,
+				E354AC002E39DBAA00A80071 /* LoginPrac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E30E72342E2A13E300E88A4A /* Lab-Login */ = {
+		E354ABFF2E39DBAA00A80071 /* LoginPrac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E30E72482E2A13E500E88A4A /* Build configuration list for PBXNativeTarget "Lab-Login" */;
+			buildConfigurationList = E354AC132E39DBAB00A80071 /* Build configuration list for PBXNativeTarget "LoginPrac" */;
 			buildPhases = (
-				E30E72312E2A13E300E88A4A /* Sources */,
-				E30E72322E2A13E300E88A4A /* Frameworks */,
-				E30E72332E2A13E300E88A4A /* Resources */,
+				E354ABFC2E39DBAA00A80071 /* Sources */,
+				E354ABFD2E39DBAA00A80071 /* Frameworks */,
+				E354ABFE2E39DBAA00A80071 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E30E72372E2A13E300E88A4A /* Lab-Login */,
+				E354AC022E39DBAA00A80071 /* LoginPrac */,
 			);
-			name = "Lab-Login";
+			name = LoginPrac;
 			packageProductDependencies = (
 			);
-			productName = "Lab-Login";
-			productReference = E30E72352E2A13E300E88A4A /* Lab-Login.app */;
+			productName = LoginPrac;
+			productReference = E354AC002E39DBAA00A80071 /* LoginPrac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E30E722D2E2A13E300E88A4A /* Project object */ = {
+		E354ABF82E39DBAA00A80071 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					E30E72342E2A13E300E88A4A = {
+					E354ABFF2E39DBAA00A80071 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = E30E72302E2A13E300E88A4A /* Build configuration list for PBXProject "Lab-Login" */;
+			buildConfigurationList = E354ABFB2E39DBAA00A80071 /* Build configuration list for PBXProject "LoginPrac" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = E30E722C2E2A13E300E88A4A;
+			mainGroup = E354ABF72E39DBAA00A80071;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E30E72362E2A13E300E88A4A /* Products */;
+			productRefGroup = E354AC012E39DBAA00A80071 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E30E72342E2A13E300E88A4A /* Lab-Login */,
+				E354ABFF2E39DBAA00A80071 /* LoginPrac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E30E72332E2A13E300E88A4A /* Resources */ = {
+		E354ABFE2E39DBAA00A80071 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E30E72312E2A13E300E88A4A /* Sources */ = {
+		E354ABFC2E39DBAA00A80071 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E30E72492E2A13E500E88A4A /* Debug */ = {
+		E354AC142E39DBAB00A80071 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -146,7 +146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lab-Login/Info.plist";
+				INFOPLIST_FILE = LoginPrac/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -157,7 +157,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "comchitkarauniversity.Lab-Login";
+				PRODUCT_BUNDLE_IDENTIFIER = comchitkarauniversity.LoginPrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -165,7 +165,7 @@
 			};
 			name = Debug;
 		};
-		E30E724A2E2A13E500E88A4A /* Release */ = {
+		E354AC152E39DBAB00A80071 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -173,7 +173,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lab-Login/Info.plist";
+				INFOPLIST_FILE = LoginPrac/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -184,7 +184,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "comchitkarauniversity.Lab-Login";
+				PRODUCT_BUNDLE_IDENTIFIER = comchitkarauniversity.LoginPrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -192,7 +192,7 @@
 			};
 			name = Release;
 		};
-		E30E724B2E2A13E500E88A4A /* Debug */ = {
+		E354AC162E39DBAB00A80071 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		E30E724C2E2A13E500E88A4A /* Release */ = {
+		E354AC172E39DBAB00A80071 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,25 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E30E72302E2A13E300E88A4A /* Build configuration list for PBXProject "Lab-Login" */ = {
+		E354ABFB2E39DBAA00A80071 /* Build configuration list for PBXProject "LoginPrac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E30E724B2E2A13E500E88A4A /* Debug */,
-				E30E724C2E2A13E500E88A4A /* Release */,
+				E354AC162E39DBAB00A80071 /* Debug */,
+				E354AC172E39DBAB00A80071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E30E72482E2A13E500E88A4A /* Build configuration list for PBXNativeTarget "Lab-Login" */ = {
+		E354AC132E39DBAB00A80071 /* Build configuration list for PBXNativeTarget "LoginPrac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E30E72492E2A13E500E88A4A /* Debug */,
-				E30E724A2E2A13E500E88A4A /* Release */,
+				E354AC142E39DBAB00A80071 /* Debug */,
+				E354AC152E39DBAB00A80071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E30E722D2E2A13E300E88A4A /* Project object */;
+	rootObject = E354ABF82E39DBAA00A80071 /* Project object */;
 }

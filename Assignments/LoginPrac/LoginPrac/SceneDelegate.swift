@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Lab-Login
+//  LoginPrac
 //
-//  Created by Varun Saini on 18/07/25.
+//  Created by Varun Saini on 30/07/25.
 //
 
 import UIKit
