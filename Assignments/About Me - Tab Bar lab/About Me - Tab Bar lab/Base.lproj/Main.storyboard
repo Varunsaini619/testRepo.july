@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ydn-ah-gFd">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hobby-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="About_Me___Tab_Bar_lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4F532361-FFAA-4360-B514-B4D057095BFA_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="AAO-l0-ou9">
+                                <rect key="frame" x="0.0" y="118" width="393" height="617"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I also love listening to music" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vt-od-6Cz">
+                                <rect key="frame" x="38" y="389" width="316" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="linkColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I like writing poetries and stories" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOT-MF-Ayu">
+                                <rect key="frame" x="38" y="336" width="316" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" systemColor="systemMintColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="linkColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AAO-l0-ou9" secondAttribute="trailing" id="92H-70-Fru"/>
+                            <constraint firstItem="AAO-l0-ou9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bNm-m5-XOs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AAO-l0-ou9" secondAttribute="bottom" id="hcc-e8-V5X"/>
+                            <constraint firstItem="AAO-l0-ou9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iFI-FZ-uIp"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobby" image="cricket.ball" catalog="system" selectedImage="cricket.ball.fill" id="BL0-eA-QYE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028.2442748091603" y="396.47887323943667"/>
+        </scene>
+        <!--Bio-->
+        <scene sceneID="GUa-wh-Cvh">
+            <objects>
+                <viewController id="iPQ-Lm-54n" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2xK-Iu-Pzi">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4F532361-FFAA-4360-B514-B4D057095BFA_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="1iY-wU-U7V">
+                                <rect key="frame" x="0.0" y="118" width="393" height="617"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi, Myself Varun Saini and I'm a student at Chitkara University and proficient in writing " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QkT-MK-7rA">
+                                <rect key="frame" x="0.0" y="194" width="393" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="linkColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vsz-hQ-UuQ"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="1iY-wU-U7V" firstAttribute="leading" secondItem="Vsz-hQ-UuQ" secondAttribute="leading" id="4L2-UO-Ood"/>
+                            <constraint firstItem="1iY-wU-U7V" firstAttribute="top" secondItem="Vsz-hQ-UuQ" secondAttribute="top" id="FNq-nt-Rek"/>
+                            <constraint firstItem="Vsz-hQ-UuQ" firstAttribute="bottom" secondItem="1iY-wU-U7V" secondAttribute="bottom" id="PUG-oi-A8N"/>
+                            <constraint firstItem="Vsz-hQ-UuQ" firstAttribute="trailing" secondItem="1iY-wU-U7V" secondAttribute="trailing" id="adN-1S-xa9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" image="person.circle" catalog="system" selectedImage="person.fill" id="kxp-8D-Alv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l4b-qA-lwc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1802.2900763358778" y="395.77464788732397"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="8P5-cW-asa">
+            <objects>
+                <viewController id="fkM-Oc-2CZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UA0-Lo-Q3e">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4F532361-FFAA-4360-B514-B4D057095BFA_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="oG8-em-63V">
+                                <rect key="frame" x="0.0" y="118" width="393" height="617"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I am a single child" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywF-Qw-e7v">
+                                <rect key="frame" x="41" y="330" width="310" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="442-9h-fVm"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="oG8-em-63V" firstAttribute="top" secondItem="442-9h-fVm" secondAttribute="top" id="8aG-cV-AJn"/>
+                            <constraint firstItem="oG8-em-63V" firstAttribute="leading" secondItem="442-9h-fVm" secondAttribute="leading" id="Ihl-rV-BtL"/>
+                            <constraint firstItem="442-9h-fVm" firstAttribute="trailing" secondItem="oG8-em-63V" secondAttribute="trailing" id="WbP-sf-aIN"/>
+                            <constraint firstItem="442-9h-fVm" firstAttribute="bottom" secondItem="oG8-em-63V" secondAttribute="bottom" id="sMn-xg-b90"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="figure.2.and.child.holdinghands" catalog="system" selectedImage="figure.2.and.child.holdinghands" id="iVM-TB-0aR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6xl-6R-t23" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2603.8167938931297" y="395.77464788732397"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dXj-E6-vWV">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Ydn-ah-gFd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0bY-l7-byW">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="scrollEdgeAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="iPQ-Lm-54n" kind="relationship" relationship="viewControllers" id="bTR-dg-QuU"/>
+                        <segue destination="fkM-Oc-2CZ" kind="relationship" relationship="viewControllers" id="shM-9w-HoQ"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="aSp-EH-4hP"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="59W-jg-OGk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1802" y="-760"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="4F532361-FFAA-4360-B514-B4D057095BFA_1_105_c" width="768" height="1024"/>
+        <image name="cricket.ball" catalog="system" width="128" height="123"/>
+        <image name="cricket.ball.fill" catalog="system" width="128" height="123"/>
+        <image name="figure.2.and.child.holdinghands" catalog="system" width="128" height="93"/>
+        <image name="person.circle" catalog="system" width="128" height="123"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
