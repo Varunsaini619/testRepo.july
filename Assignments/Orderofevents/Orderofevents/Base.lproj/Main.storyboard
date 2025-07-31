@@ -26,7 +26,7 @@
                                     <segue destination="Lh3-OT-a3Z" kind="show" id="cCM-Oy-3L4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing happened yet." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZ2-rK-YVI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing happened yet." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZ2-rK-YVI">
                                 <rect key="frame" x="5" y="167" width="383" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
@@ -45,7 +45,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="uVs-I2-Yrd"/>
                     <connections>
-                        <outlet property="MiddleViewText" destination="JZ2-rK-YVI" id="qqY-B5-nQ4"/>
+                        <outlet property="MiddleViewText" destination="JZ2-rK-YVI" id="loV-e4-ByJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k3k-cy-qSL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

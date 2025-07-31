@@ -5,45 +5,45 @@
 //  Created by Varun Saini on 30/07/25.
 //
 
-import UIKit
+    import UIKit
 
-class MiddleViewController: UIViewController {
+    class MiddleViewController: UIViewController {
 
-    @IBOutlet weak var MiddleViewText: UILabel!
-    
-    var eventNumber: Int = 1
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        addEvent(from: "viewDidLoad")
-    }
-    
-    func addEvent(from: String){
-        if let existingText = MiddleViewText.text{
-            MiddleViewText.text = "\(existingText)\nEvent number \(eventNumber) was \(from)"
-            eventNumber += 1
-        }
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        print(addEvent(from: "viewWillAppear"))
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        addEvent(from: "viewDidAppear")
+        @IBOutlet weak var MiddleViewText: UILabel!
         
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        addEvent(from: "viewWillDisappear")
-    }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        addEvent(from: "viewDidDisappear")
+        var eventNumber: Int = 1
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            addEvent(from: "viewDidLoad")
+        }
+        
+        func addEvent(from: String) {
+            if let existingText = MiddleViewText.text {
+                MiddleViewText.text = "\(existingText)\nEvent number \(eventNumber) was \(from)"
+                eventNumber += 1
+            }
+        }
+
+        override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            addEvent(from: "viewWillAppear")
+        }
+        
+        override func viewDidAppear(_ animated: Bool) {
+            super.viewDidAppear(animated)
+            addEvent(from: "viewDidAppear")
+        }
+        
+        override func viewWillDisappear(_ animated: Bool) {
+            super.viewWillDisappear(animated)
+            addEvent(from: "viewWillDisappear")
+        }
+        
+        override func viewDidDisappear(_ animated: Bool) {
+            super.viewDidDisappear(animated)
+            addEvent(from: "viewDidDisappear")
+        }
     }
 
     /*
@@ -56,4 +56,3 @@ class MiddleViewController: UIViewController {
     }
     */
 
-}
