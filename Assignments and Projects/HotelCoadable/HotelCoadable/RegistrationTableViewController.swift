@@ -48,5 +48,15 @@ class RegistrationTableViewController: UITableViewController {
         tableView.reloadData()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showregisterationdetail",
+           let destination = segue.destination as? AddRegistrationTableViewController,
+           let cell = sender as? UITableViewCell,
+           let indexPath = tableView.indexPath(for: cell) {
+            destination.receivedRegistration = registrations[indexPath.row]
+        }
+    }
+
+    
     
 }

@@ -8,7 +8,11 @@
 import UIKit
 
 class AddRegistrationTableViewController: UITableViewController, SelectRoomTypeTableViewControllerDelegate {
+    
+    var receivedRegistration : Registration?
+    
 
+    @IBOutlet weak var DoneButton: UIBarButtonItem!
     @IBOutlet weak var wifiSwitch: UISwitch!
     @IBOutlet weak var numberOfChildrenLabel: UILabel!
     @IBOutlet weak var numberOfChildrenStepper: UIStepper!
@@ -66,12 +70,15 @@ class AddRegistrationTableViewController: UITableViewController, SelectRoomTypeT
            updateDateViews()
         updateNumberOfGuests()
         updateRoomType()
+        loadData()
+        updateDoneButtonState()
        }
 
     func selectRoomTypeTableViewController(_ controller: SelectRoomTypeTableViewController,
             didSelect roomType: RoomType) {
            self.roomType = roomType
            updateRoomType()
+        updateDoneButtonState()
        }
        
        
@@ -91,8 +98,14 @@ class AddRegistrationTableViewController: UITableViewController, SelectRoomTypeT
            checkOutDateLabel.text = formatter.string(from: checkOutDatePicker.date)
        }
 
+    @IBAction func testeditingupdated(_ sender: UITextField) {
+        updateDoneButtonState()
+    }
     @IBAction func cancelButtonTapped() {
         dismiss(animated: true, completion: nil)
+    }
+    func updateDoneButtonState(){
+        DoneButton.isEnabled = (registration != nil)
     }
     
     @IBSegueAction func selectRoomType(_ coder: NSCoder) -> SelectRoomTypeTableViewController? {
@@ -105,13 +118,16 @@ class AddRegistrationTableViewController: UITableViewController, SelectRoomTypeT
     
     @IBAction func datePickerValueChanged(_ sender: UIDatePicker) {
         updateDateViews()
+        updateDoneButtonState()
     }
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
         updateNumberOfGuests()
+        updateDoneButtonState()
     }
     
     @IBAction func wifiSwitchChanged(_ sender: UISwitch) {
+        updateDoneButtonState()
         
     }
     
@@ -182,5 +198,31 @@ class AddRegistrationTableViewController: UITableViewController, SelectRoomTypeT
     "\(Int(numberOfChildrenStepper.value) )"
     }
     
+    func loadData(){
+        
+        if let r =  receivedRegistration {
+            
+            firstNameTextField.text = r.firstName
+            lastNameTextField.text = r.lastName
+            emailTextField.text = r.emailAddress
 
+           
+            checkInDatePicker.date = r.checkInDate
+            checkOutDatePicker.date = r.checkOutDate
+
+            numberOfAdultsStepper.value = Double(r.numberOfAdults)
+           numberOfChildrenStepper.value = Double(r.numberOfChildren)
+
+            wifiSwitch.isOn = r.wifi
+            roomType = r.roomType
+
+            updateRoomType()
+            updateNumberOfGuests()
+            updateDateViews()
+//            updatesummary()
+
+        }
+        
+    }
+    
 }
